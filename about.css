@@ -25,7 +25,12 @@ body{
   top: 0;
   z-index: 100;
 }
-
+.logos{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 .logo1{
   width: 50px;
   height: 50px;
@@ -34,7 +39,7 @@ body{
 .logo {
   font-weight: 600;
   font-size: 20px;
-  margin-left: -49%;
+  
 }
 .logo2{
   width: 200px;
@@ -115,16 +120,7 @@ body{
  .about-quote li{
     font-size: 17px;
  }
- .logo1{
-  width: 50px;
-  height: 50px;
-  border-radius: 100%;
-}
-.logo {
-  font-weight: 600;
-  font-size: 20px;
-  margin-left: -59%;
-}
+ 
 
  .journey{
     font-size: 15px;
@@ -148,16 +144,4 @@ body{
   .button{
     margin-top: 20px;
   }
-}
-@media screen and (max-width: 320px){
-  .logo1{
-  width: 50px;
-  height: 50px;
-  border-radius: 100%;
-}
-.logo {
-  font-weight: 600;
-  font-size: 20px;
-  margin-left: -37%;
-}
 }
