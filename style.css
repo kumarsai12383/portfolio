@@ -8,20 +8,6 @@ html{
   box-sizing: border-box;
 }
 
-body{
-    opacity: 0;
-  transform: translateY(50px);
-  animation: slideUpFadeIn 0.5s ease-out forwards;
-    }
-    @keyframes slideUpFadeIn {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-
-/* Navbar */
 .navbar {
   background-color: #003366;
   padding: 15px 20px;
@@ -33,12 +19,21 @@ body{
   top: 0;
   z-index: 100;
 }
-
 .logos{
   text-align: center;
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+.logo1{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.logo {
+  font-weight: 600;
+  font-size: 20px;
+  
 }
 
 .nav-links {
@@ -46,29 +41,47 @@ body{
   list-style: none;
   gap: 20px;
 }
-
 .nav-links li a {
   color: white;
   text-decoration: none;
   font-weight: 500;
 }
-
-.logo1{
-  width: 50px;
-  height: 50px;
-  border-radius: 100%;
-  
-}
-.logo {
-  font-weight: 600;
-  font-size: 20px;
- 
-}
-
 .hamburger {
   display: none;
   font-size: 28px;
   cursor: pointer;
+}
+.btn a {
+  text-decoration: underline;
+  color: white;
+}
+.logo2{
+  width: 200px;
+  height: 100px;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #003366;
+    width: 150px;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .nav-links.active {
+    display: flex;
+  }
+  .button {
+    margin-top: 20px;
+  }
 }
 
 body {
