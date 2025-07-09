@@ -33,7 +33,6 @@ html{
 .logo {
   font-weight: 600;
   font-size: 20px;
-  
 }
 
 .nav-links {
@@ -75,7 +74,6 @@ html{
     padding: 10px;
     border-radius: 8px;
   }
-  
   .nav-links.active {
     display: flex;
   }
@@ -85,69 +83,69 @@ html{
 }
 
 body {
-      margin: 0;
-      font-family: 'Roboto', sans-serif;
-      background: linear-gradient(to bottom, #e0f7fa, #ffffff);
-      color: #222;
-      text-align: center;
-    }
-    header {
-      padding: 80px 20px 40px;
-      position: relative;
-    }
-    h1 {
-      font-size: 2.5rem;
-      margin: 0;
-      color: #007bff;
-    }
-    p.subtitle {
-      font-size: 1.2rem;
-      color: #555;
-      margin: 10px 0 20px;
-    }
-    .buttons {
-      display: flex;
-      justify-content: center;
-      gap: 15px;
-      margin-top: 40px;
-      flex-wrap: wrap;
-    }
-    .buttons a {
-      background: #007bff;
-      color: #fff;
-      padding: 12px 20px;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: 500;
-      transition: background 0.3s;
-    }
-    .buttons a:hover {
-      background: #0056b3;
-      color: white;
-    }
-    .wave {
-      position: relative;
-      width: 100%;
-      overflow: hidden;
-      line-height: 0;
-    }
-    .not-work{
-      font-size: 15px;
-      color: red;
-      font-weight: bolder;
-    }
-    .wave svg {
-      position: relative;
-      display: block;
-      width: calc(150% + 1.3px);
-      height: 100px;
-    }
-    footer {
-      background: #007bff;
-      color: #fff;
-      padding: 15px;
-      font-size: 0.95rem;
-    }
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+  color: #222;
+  text-align: center;
+}
+header {
+  padding: 80px 20px 40px;
+  position: relative;
+}
+h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  color: #007bff;
+}
+p.subtitle {
+  font-size: 1.2rem;
+  color: #555;
+  margin: 10px 0 20px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+.buttons a {
+  background: #007bff;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+.buttons a:hover {
+  background: #0056b3;
+  color: white;
+}
+.wave {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+.not-work{
+  font-size: 15px;
+  color: red;
+  font-weight: bolder;
+}
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(150% + 1.3px);
+  height: 100px;
+}
+footer {
+  background: #007bff;
+  color: #fff;
+  padding: 15px;
+  font-size: 0.95rem;
+}
 
 img{
   max-width: 300px;
@@ -165,17 +163,17 @@ img{
 }
 
 footer{
+footer {
   text-align: center;
   padding: 20px;
   color: white;
+  background: #007bff;
+  font-size: 0.95rem;
 }
-footer a{
+footer a {
   color: rgb(14, 15, 15);
   text-decoration: none;
-  
 }
-
-
 i{
   font-size: 40px;
   padding: 20px;
@@ -185,31 +183,7 @@ i:hover{
   color: rgb(246, 246, 248);
   
 }
-@media (max-width: 768px) {
-  .hamburger {
-    display: block;
-  }
-
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    right: 20px;
-    background-color: #003366;
-    width: 150px;
-    padding: 10px;
-    border-radius: 8px;
-  }
-  
-
-  .nav-links.active {
-    display: flex;
-  }
-  .button{
-    margin-top: 20px;
-  }
-}
+/* Duplicate @media (max-width: 768px) block removed to avoid conflicts */
 
 /* Animation */
 .fade-in {
@@ -222,37 +196,37 @@ i:hover{
     opacity: 1;
   }
 }
-@media screen and (max-width: 320px){
-  .bg-container{
+
+@media screen and (max-width: 320px) {
+  .bg-container {
     background-size: cover;
     background-position: center;
     flex-direction: column;
     justify-content: center;
   }
-  img{
+  img {
     max-width: 100%;
     height: 50vh;
     padding: 0;
   }
-
-  p{
+  p {
     font-size: 16px;
   }
-  footer{
+  footer {
     font-size: 12px;
   }
-  .logo1{
-  width: 50px;
-  height: 50px;
-  border-radius: 100%;
-}
-.logo {
-  font-weight: 600;
-  font-size: 20px;
-  
-}
-  i{
+  .logo1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+  }
+  .logo {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  i {
     font-size: 40px;
     padding: 10px;
   }
+}
 }
