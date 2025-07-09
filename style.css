@@ -34,7 +34,12 @@ body{
   z-index: 100;
 }
 
-
+.logos{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 
 .nav-links {
   display: flex;
@@ -52,11 +57,12 @@ body{
   width: 50px;
   height: 50px;
   border-radius: 100%;
+  
 }
 .logo {
   font-weight: 600;
   font-size: 20px;
-  margin-left: -52%;
+ 
 }
 
 .hamburger {
@@ -182,16 +188,7 @@ i:hover{
     padding: 10px;
     border-radius: 8px;
   }
-  .logo1{
-  width: 50px;
-  height: 50px;
-  border-radius: 100%;
-}
-.logo {
-  font-weight: 600;
-  font-size: 20px;
-  margin-left: -59%;
-}
+  
 
   .nav-links.active {
     display: flex;
@@ -212,7 +209,7 @@ i:hover{
     opacity: 1;
   }
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 320px){
   .bg-container{
     background-size: cover;
     background-position: center;
@@ -224,18 +221,13 @@ i:hover{
     height: 50vh;
     padding: 0;
   }
+
   p{
     font-size: 16px;
   }
   footer{
     font-size: 12px;
   }
-  i{
-    font-size: 40px;
-    padding: 10px;
-  }
-}
-@media screen and (max-width: 320px){
   .logo1{
   width: 50px;
   height: 50px;
@@ -246,4 +238,8 @@ i:hover{
   font-size: 20px;
   margin-left: -37%;
 }
+  i{
+    font-size: 40px;
+    padding: 10px;
+  }
 }
