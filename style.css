@@ -29,20 +29,23 @@ body{
   top: 0;
   z-index: 100;
 }
-.logos{
-  
+.logos {
   display: flex;
-  flex-direction: row;
   align-items: center;
+  gap: 10px; /* creates space between logo image and text */
 }
-.logo1{
+
+.logo1 {
   width: 50px;
   height: 50px;
-  border-radius: 100%;
+  border-radius: 50%;
 }
+
 .logo {
-  font-weight: 600;
   font-size: 20px;
+  font-weight: 600;
+  color: white;
+  margin-left: 5px;
 }
 
 .nav-links {
@@ -64,10 +67,7 @@ body{
   text-decoration: underline;
   color: white;
 }
-.logo2{
-  width: 200px;
-  height: 100px;
-}
+
 
 @media (max-width: 768px) {
   .hamburger {
