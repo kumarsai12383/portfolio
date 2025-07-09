@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    
+    <script src="index.js"defer></script>
+    <title>my portflio</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <img src="undraw_developer-activity_4zqd.png" alt="" class="logo1">
+    <div class="logo">Kumar Sai</div>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" >About</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="skill.html">Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="certificates.html">certificates</a></li>
+      <li><a href="contact.html">Contact Me</a></li>
+      <li></li>
+    </ul>
+    </nav>
+  
+  <section class="hero fade-in" style="margin: 30px;">
+    <h1>👋 Hi, I'm Kumar Sai</h1>
+    <img src="pro3.jpg" style="margin-top: 30px; margin-bottom: 30px;" alt="Profile Image" />
+    <p class="subtitle">Full Stack Developer | Tech Enthusiast | Code Lover</p>
+    <p class="quote">“Building clean and interactive websites while learning and growing every day.”</p>
+    <div class="buttons">
+      <a href="#" class="button">Download Resume <br><span class="not-work">button not work</span></a>
+      <a href="projects.html" class="button">View My Work</a>
+    </div>
+  </section>
+    
+ 
+   <div class="wave">
+    <svg viewBox="0 0 500 150" preserveAspectRatio="none">
+      <path d="M-1.41,73.97 C150.00,150.00 349.92,-49.98 500.00,73.97 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #007bff;"></path>
+    </svg>
+  </div> 
+      
+      <footer>
+        <p class="bottom">Designed & Built by Kumar Sai | Web Developer</p>
+        <br>
+        <p class="social-media" style="color: black; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">For more visit my social media platforms:</p>
+        <a href="https://www.facebook.com/yourusername" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+<a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
+<a href="mailto:youremail@example.com"><i class="mail   fas fa-envelope"></i></a>
+      </footer>
+      
+    <script>
+    function toggleMenu() {
+      const navLinks = document.getElementById('navLinks');
+      navLinks.classList.toggle('active');
+    }
+  </script>
+    
+  </body>
+</html>

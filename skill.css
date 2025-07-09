@@ -1,0 +1,142 @@
+body{
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+      color: #222;
+      text-align: center;
+    opacity: 0;
+  transform: translateY(50px);
+  animation: slideUpFadeIn 0.5s ease-out forwards;
+    }
+    @keyframes slideUpFadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+    
+.navbar {
+  background-color: #003366;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo1{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.logo {
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: -49%;
+}
+.logo2{
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+.hamburger {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #003366;
+    width: 150px;
+    padding: 10px;
+    border-radius: 8px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+  .button{
+    margin-top: 20px;
+  }
+  .logo1{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.logo {
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: -59%;
+}
+  .listofplatforms li{
+    font-size: 13px;
+    margin: 5px;
+  }
+}
+.card-title{
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: black;
+}
+.card-text{
+  font-size: 16px;
+  margin-bottom: 20px;
+
+  color: black;
+}
+.container{
+    width: 80%;
+   
+    padding: 20px;
+    background-color: #6dc6fe;
+    border-radius: 10px;
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.listofplatforms{
+  text-align: left;
+  justify-content:center;
+  margin: 6px;
+  font-size: 25px;
+}
+.wave {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+    }
+    .wave svg {
+      position: relative;
+      display: block;
+      width: calc(150% + 1.3px);
+      height: 100px;
+    }
+    footer {
+      background: #007bff;
+      color: #fff;
+      padding: 15px;
+      font-size: 0.95rem;
+    }

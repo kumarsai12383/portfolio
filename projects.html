@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="projects.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+   
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Removed duplicate/conflicting Font Awesome script -->
+    <title>about me</title>
+</head>
+<body>
+    <nav class="navbar">
+      <img src="undraw_developer-activity_4zqd.png" alt="" class="logo1">
+    <div class="logo">Kumar Sai</div>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" >About</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="skill.html">Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="certificates.html">certificates</a></li>
+      <li><a href="contact.html">Contact Me</a></li>
+      <li></li>
+    </ul>
+    </nav>
+  <h1 class="display-4" style="color: #0953ad; font-family: po">
+        My hand on Projects:
+      </h1>
+
+      <p style="font-size: 18px; color: rgb(6, 75, 153)">
+          Some small front-end projects by HTML5 and CSS3:
+        </p>
+        <img src="projects.png" alt="" class="logo2">
+      <div class="container-1">
+        
+        <div class="card-body">
+          <h2>single page portfolio</h2>
+          <img src="Untitled design (5).png" width="200px" height="200px" alt="project" />
+          <p>
+            This is a single page portfolio website with a responsive design. It
+            uses HTML, CSS, and JavaScript for the front-end. It also includes a
+            navigation bar, a footer, and a responsive grid layout for
+            displaying the projects.
+          </p>
+          <p class="btn">
+            <a href="https://myprofilehost.netlify.app/"
+              ><strong>View Project</strong></a
+            >
+          </p>
+        </div>
+        <div class="card-body">
+          <h2>Multiple page portfolio</h2>
+          <img src="Untitled design (7).png" width="200px" height="200px" alt="project" />
+          <p>
+            This is a multiple page portfolio website with a responsive design.
+            It uses HTML, CSS, for the front-end. It also includes a navigation
+            bar, a footer, and a responsive grid layout for displaying the
+            projects.
+          </p>
+          <p class="btn">
+            <a href="https://mkumarsai.netlify.app/"><strong>View Project</strong></a>
+          </p>
+        </div>
+
+        <div class="card-body">
+          <h2>A small E-Commerce website</h2>
+          <img src="Untitled design (4).png" width="200px" height="200px" alt="project" />
+          <p>
+            This is a simple e-commerce website featuring a responsive design.
+            Built with HTML, CSS, and JavaScript, it includes a navigation bar,
+            product listings, and a user-friendly layout. To explore the site,
+            click the link below and select "skip login".
+          </p>
+          <p class="btn">
+            <a href="https://a-zshopeasy.netlify.app/"
+              ><strong>View Project</strong></a
+            >
+            (<span class="note">Use</span>: "Skip login to explore the site")
+          </p>
+        </div>
+        <div class="card-body">
+          <h2>NETFLIX UI</h2>
+          <img src="Untitled design (6).png" width="200px" height="200px" alt="project" />
+          <p>
+            This is a Netflix UI clone, designed to mimic the look and feel of
+            the original Netflix website. It features a responsive layout,
+            showcasing various movie and TV show posters. The project is built
+            using HTML, CSS.
+          </p>
+          <p class="btn">
+            <a href="https://project-n-k.netlify.app/"
+              ><strong>View Project</strong></a
+            >
+          </p>
+      </div>
+    </div>
+
+  <div class="wave">
+    <svg viewBox="0 0 500 150" preserveAspectRatio="none">
+      <path d="M-1.41,73.97 C150.00,150.00 349.92,-49.98 500.00,73.97 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #007bff;"></path>
+    </svg>
+  </div> 
+  <footer>
+     <blockquote style="font-style: italic; color: #ebeced; margin-top: -70px; font-size: 1.2rem; text-align: center; margin: auto;">
+                    "Web development is not just about creating websites, it's about creating experiences." 
+                    <br>
+                    <cite style="display: block;  font-size: 1rem; color: #f4f6f9;">--ME--</cite>
+            </blockquote>
+  </footer>
+        
+  <script>
+    function toggleMenu() {
+      const navLinks = document.getElementById('navLinks');
+      navLinks.classList.toggle('active');
+    }
+  </script>
+  </body>
+</html>

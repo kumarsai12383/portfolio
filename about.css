@@ -1,0 +1,151 @@
+body{
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+      color: #222;
+      text-align: center;
+      opacity: 0;
+  transform: translateY(50px);
+  animation: slideUpFadeIn 0.5s ease-out forwards;
+    }
+    @keyframes slideUpFadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.navbar {
+  background-color: #003366;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo1{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.logo {
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: -49%;
+}
+.logo2{
+  width: 200px;
+  height: 100px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.journey{
+    justify-content: center;
+    margin: auto;
+}
+.about-details li{
+    text-align: left;
+}
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+.hamburger {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+.wave {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+    }
+    .wave svg {
+      position: relative;
+      display: block;
+      width: calc(150% + 1.3px);
+      height: 100px;
+    }
+    footer {
+      background: #007bff;
+      color: #fff;
+      padding: 15px;
+      font-size: 0.95rem;
+    }
+    .tools-icons {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px 0;
+}
+.about-details li{
+    list-style-type: none;
+    font-size: 20px;
+    margin: 10px;
+}
+.tools-icons img {
+  width: 48px;
+  height: 48px;
+  transition: transform 0.2s ease;
+}
+
+.tools-icons img:hover {
+  transform: scale(1.1);
+}
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+  .quote{
+    font-size: 16px;
+  }
+ .about-details li{
+    font-size: 15px;
+ }
+ .about-quote li{
+    font-size: 17px;
+ }
+ .logo1{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.logo {
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: -59%;
+}
+
+ .journey{
+    font-size: 15px;
+    margin: 10px;
+ }
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #003366;
+    width: 150px;
+    padding: 10px;
+    border-radius: 8px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+  .button{
+    margin-top: 20px;
+  }
+}

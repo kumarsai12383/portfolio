@@ -1,0 +1,166 @@
+body{
+    opacity: 0;
+  transform: translateY(50px);
+  animation: slideUpFadeIn 0.5s ease-out forwards;
+    }
+    @keyframes slideUpFadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.navbar {
+  background-color: #003366;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo1{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.logo {
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: -49%;
+}
+.logo2{
+  width: 200px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+
+
+.hamburger {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #003366;
+    width: 150px;
+    padding: 10px;
+    border-radius: 8px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+  .button{
+    margin-top: 20px;
+  }
+}
+.container {
+      max-width: 600px;
+      margin: 50px auto;
+      padding: 30px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      text-align: center;
+      color: #0077b6;
+      margin-bottom: 25px;
+    }
+
+    form input,
+    form textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+    form textarea {
+      resize: vertical;
+      height: 120px;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      background-color: #0077b6;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #023e8a;
+    }
+.wave {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+    }
+    .wave svg {
+      position: relative;
+      display: block;
+      width: calc(150% + 1.3px);
+      height: 100px;
+    }
+    footer {
+      background: #007bff;
+      color: #fff;
+      padding: 15px;
+      font-size: 0.95rem;
+    }
+footer{
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+footer a{
+  color: rgb(14, 15, 15);
+  text-decoration: none;
+  
+}
+
+
+i{
+  font-size: 40px;
+  padding: 20px;
+  transition: color 0.3s ease-in-out;
+}
+i:hover{
+  color: rgb(246, 246, 248);
+  
+}
