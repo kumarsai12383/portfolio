@@ -9,7 +9,12 @@ body{
     transform: translateY(0);
   }
 }
-
+.logos{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 .navbar {
   background-color: #003366;
   padding: 15px 20px;
@@ -21,17 +26,17 @@ body{
   top: 0;
   z-index: 100;
 }
-
 .logo1{
   width: 50px;
   height: 50px;
   border-radius: 100%;
 }
-.logo {
+.logo{
   font-weight: 600;
   font-size: 20px;
-  margin-left: -49%;
+  
 }
+
 .logo2{
   width: 200px;
   height: 100px;
@@ -63,6 +68,7 @@ body{
     display: block;
   }
 
+  
   .nav-links {
     display: none;
     flex-direction: column;
@@ -83,70 +89,66 @@ body{
   }
 }
 .container {
-      max-width: 600px;
-      margin: 50px auto;
-      padding: 30px;
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 0 20px rgba(0,0,0,0.1);
-    }
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
 
-    h2 {
-      text-align: center;
-      color: #0077b6;
-      margin-bottom: 25px;
-    }
-
-    form input,
-    form textarea {
-      width: 100%;
-      padding: 12px;
-      margin: 10px 0;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-      font-size: 16px;
-    }
-    form textarea {
-      resize: vertical;
-      height: 120px;
-    }
-
-    button {
-      width: 100%;
-      padding: 12px;
-      background-color: #0077b6;
-      color: white;
-      border: none;
-      border-radius: 6px;
-      font-size: 16px;
-      cursor: pointer;
-    }
-
-    button:hover {
-      background-color: #023e8a;
-    }
-.wave {
-      position: relative;
-      width: 100%;
-      overflow: hidden;
-      line-height: 0;
-    }
-    .wave svg {
-      position: relative;
-      display: block;
-      width: calc(150% + 1.3px);
-      height: 100px;
-    }
-    footer {
-      background: #007bff;
-      color: #fff;
-      padding: 15px;
-      font-size: 0.95rem;
-    }
-footer{
+h2 {
   text-align: center;
-  padding: 20px;
+  color: #0077b6;
+  margin-bottom: 25px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+form textarea {
+  resize: vertical;
+  height: 120px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0077b6;
   color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #023e8a;
+}
+.wave {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(150% + 1.3px);
+  height: 100px;
+}
+footer {
+  background: #007bff;
+  color: white;
+  padding: 20px;
+  font-size: 0.95rem;
+  text-align: center;
 }
 footer a{
   color: rgb(14, 15, 15);
@@ -164,3 +166,4 @@ i:hover{
   color: rgb(246, 246, 248);
   
 }
+
