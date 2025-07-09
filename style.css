@@ -177,6 +177,7 @@ footer a {
 i{
   font-size: 40px;
   padding: 20px;
+  color: #222;
   transition: color 0.3s ease-in-out;
 }
 i:hover{
