@@ -116,7 +116,9 @@ form textarea {
   resize: vertical;
   height: 120px;
 }
-
+.send{
+    margin-bottom:10px;
+}
 button {
   width: 100%;
   padding: 12px;
