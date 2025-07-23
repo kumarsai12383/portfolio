@@ -42,7 +42,13 @@ body{
   height: 50px;
   border-radius: 100%;
 }
-
+.tools-icons{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
 
 .nav-links {
   display: flex;
